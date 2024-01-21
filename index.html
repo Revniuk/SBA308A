@@ -5,23 +5,31 @@
     <title>Cat Facts</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script type="module" src="script.js"></script>
+    <style>
+        input[type="text"] {
+            width: 30%;
+        }
+    </style>
 </head>
 
 <body>
     <div style="text-align:center;">
-        <img src="cat_image.jpg" alt="White Cat" style="width: 15%;">
+        <img src="cat_image.jpg" alt="White Cat" style="width: 20%;">
     </div>
     <h1 style="text-align:center;">Cat Fact of the Day</h1>
     <p id="catFact"></p>
 
     <h2>Search Cat Facts</h2>
-    <input type="text" id="searchInput" placeholder="Enter fact type">
+    <input type="text" id="searchInput" placeholder="Fact type">
     <button onclick="searchFact()">Search</button>
     <p id="searchResult"></p>
 
     <h2>Add a Cat Fact</h2>
-    <input type="text" id="newFactInput" placeholder="Enter new fact">
+    <input type="text" id="newFactInput" placeholder="New fact">
     <button onclick="addFact()">Add Fact</button>
 </body>
+
+</html>
+
 
 </html>
