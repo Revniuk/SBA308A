@@ -2,6 +2,39 @@
 <html>
 <head>
     <title>Cat Facts</title>
+    <style>
+        body {
+            background-color: #ADD8E6;
+            font-family: Arial, sans-serif;
+            color: #006994;
+        }
+        h1, h2 {
+            color: #008080;
+        }
+        button {
+            background-color: #008080;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4CAF50;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #008080;
+            border-radius: 4px;
+        }
+    </style>
     <script type="module">
         import { getRandomFact } from './randomFact.js';
         import { searchFact } from './searchFact.js';
